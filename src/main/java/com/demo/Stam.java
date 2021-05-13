@@ -2,16 +2,30 @@ package com.demo;
 
 import scala.Tuple2;
 
+import java.lang.reflect.Field;
+
 /**
  * @author Evgeny Borisov
  */
 public class Stam {
 
+
     public static void abc(){
 
     }
 
+
+
+
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+
     public static void main(String[] args) {
+
+
 
 
 
