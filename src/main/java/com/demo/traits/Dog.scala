@@ -10,6 +10,9 @@ import scala.util.Random
 case class Dog(var age:Int) extends Animal {
 
 
+  def printMe():Unit=println(123)
+
+
   //  def age: Int = Random.nextInt(15)
 
 
